@@ -55,6 +55,7 @@ header{
 
     display: flex;
     
+    justify-content: end;
     
     
 }
@@ -64,8 +65,9 @@ header{
 
     width: 30px;
     height: 30px;
-    margin: 10px;
+     margin: 15px; 
 }  
+
 
 
 .numero_telefono{
@@ -92,7 +94,7 @@ padding-top: 15px;
 
 
     display: flex;
-    justify-content: end;
+ justify-content:end ;
    height: 40px;
 
 
@@ -118,6 +120,9 @@ height: 25px;
 padding-top: 10px;
 
 }
+
+
+
 
 
 
@@ -382,3 +387,15 @@ footer{
     
 }
 
+.referencia_carrito {
+    display: flex;
+    justify-content: center;
+}
+
+ .cantidad input{
+
+    width: 40px;
+
+    
+    
+}
